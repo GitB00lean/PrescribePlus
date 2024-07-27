@@ -1,1 +1,88 @@
+:root{
+    --skyblue: #ADE8F4;
+    --lighter-skyblue: #CAF0F8;
+    --darker-skyblue: #90E0EF;
+    --light-blue: #48CAE4;
+    --blue: #00B4D8;
+    --blue-shade1: #0096C7;
+    --deep-blue: #0077B6;
+    --dark-blue: #023E8A;
+    --black: #010114;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
 
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background: url("../Images/medical-background-with-hand-doctor-free-photo.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 40vh;
+    width: 30vw;
+}
+.heading{
+    background-color: var(--light-blue);
+    margin: 2rem;
+}
+.heading>h1{
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    font-size: large;
+}
+.inner-box1{
+    padding-top: 9%;    
+}
+.inner-box2>h2{
+    color: var(--dark-blue);
+    margin: 0.25rem;
+    padding: 0.;
+}
+.inner-box2>h3{
+    color: var(--dark-blue);
+    opacity: 0.5;
+    margin: 0.20rem;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.butttons{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: black 2px solid;
+    font-size: larger;
+    margin: 1rem;
+    padding: 0.25rem;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: var(--black);
+    color: white;
+}
+.patient{
+    margin-left: 20%;
+}
+i{
+    font-size: x-large;
+}
