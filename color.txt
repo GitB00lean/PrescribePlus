@@ -1,0 +1,13 @@
+:root{
+    --skyblue: #ADE8F4;
+    --lighter-skyblue: #CAF0F8;
+    --darker-skyblue: #90E0EF;
+    --light-blue: #48CAE4;
+    --blue: 00B4D8;
+    --blue-shade1: #0096C7;
+    --deep-blue: #0077B6;
+    --dark-blue: #023E8A;
+    --black: #010114;
+}
+
+put this in the front of every css file so that instead of code we can use colors and lets try to put size in rem format.
