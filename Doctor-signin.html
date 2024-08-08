@@ -3,52 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-In/Sign-up</title>
+    <title>Register  & Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="CSS/Doctor-Signin.css">
+    <script type="module" src="firebaseauth.js"></script>
 </head>
 <body>
-    <div class="container right-panel-active">
-        <!-- Sign Up -->
-        <div class="container__form container--signup">
-            <form action="#" class="form" id="form1">
-                <h2 class="form__title">Sign Up</h2>
-                <input type="text" placeholder="User" class="user-signup" id="user-signup" value=""/>
-                <input type="email" placeholder="Email" class="email-signup" id="email-signup" value=""/>
-                <input type="password" placeholder="Password" class="password-signup" id="password-signup" value=""/>
-                <button class="btn" id="signup_button">Sign Up</button>
-            </form>
-        </div>
-    
-        <!-- Sign In -->
-        <div class="container__form container--signin">
-            <form action="#" class="form" id="form2">
-                <h2 class="form__title">Sign In</h2>
-                <input type="email" placeholder="Email" class="email-signin" id="email-signin"/>
-                <input type="password" placeholder="Password" class="password-signin" id="password-signin"/>
-                <a href="#" class="link">Forgot your password?</a>
-                <button class="btn" id="signin_btn">Sign In</button>
-            </form>
-        </div>
-    
-        <!-- Overlay -->
-        <div class="container__overlay">
-            <div class="overlay">
-                <div class="overlay__panel overlay--left">
-                    <button class="btn" id="signIn">Sign In</button>
-                </div>
-                <div class="overlay__panel overlay--right">
-                    <button class="btn" id="signUp">Sign Up</button>
-                </div>
+    <div class="container" id="signup" style="display: block;">
+      <h2 class="form-title center-text">Register</h2>
+        <form method="post" action="">
+            <div id="signUpMessage" class="messageDiv" style="display:none;"></div>
+
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="fName" placeholder="First Name" id="fName" value="" required>
+                <label for="fname">First Name</label>
             </div>
-        </div>
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+            <input type="text"  id="lName" placeholder="Last Name" value ="" required>
+            <label for="lName">Last Name</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-envelope"></i>
+            <input type="email"  id="rEmail" placeholder="Email" value="" required>
+            <label for="rEmail">Email</label>
+            </div>
+            <div class="input-group">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="rPassword"  placeholder="Password" value="" required>
+                <label for="rPassword">Password</label>
+            </div>
+            <button class="btn" id="submitSignUp"  type="button">Sign Up</button>
+        </form>
+         <p class="or">
+        ----------or--------
+      </p>
+      <div class="icons">
+        <i class="fab fa-google"></i>
+        <i class="fab fa-facebook"></i>
+      </div>
+      <div class="links">
+        <p>Already Have Account ?</p>
+        <button id="signInButton">Sign In</button>
     </div>
+    </div>
+    <div class="container" id="signIn" style="display: none;">
+        <h1 class="form-title">Sign In</h1>
+        <form method="post" action="">
+          <div id="signInMessage" class="messageDiv" style="display:none;"></div>
 
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-firestore.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+          <div class="input-group">
+              <i class="fas fa-envelope"></i>
+              <input type="email"  id="email" placeholder="Email" value="" required>
+              <label for="email">Email</label>
+          </div>
+          <div class="input-group">
+              <i class="fas fa-lock"></i>
+            <input type="password" id="password"  placeholder="Password" value="">
+              <label for="password">Password</label>
+          </div>
+          <p class="recover">
+            <a href="#">Recover Password</a>
+          </p>
+         <button  type="button" class="btn"  id="submitSignIn">Sign In</button>
+        </form>
+        <p class="or">
+            ----------or--------
+        </p>
+        <div class="icons">
+          <i class="fab fa-google"></i>
+          <i class="fab fa-facebook"></i>
+        </div>
+        <div class="links">
+          <p>Don't have account yet?</p>
+          <button id="signUpButton">Sign Up</button>
+        </div>
+      </div>
+      <script src="JS/Signin.js"></script>
+</body>
+</html>
 
-    <script src="JS/Signin.js"></script>
 </body>
 </html>
