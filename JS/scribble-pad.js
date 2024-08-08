@@ -2,7 +2,7 @@
 const canvas = document.querySelector('canvas');
 const form = document.querySelector('.signature-pad-form');
 const clearButton = document.querySelector('.clear-button');
-const downloadButton = document.querySelector('.share'); // Corrected selector
+const downloadButton = document.querySelector('.share');
 const ctx = canvas.getContext('2d');
 let writingMode = false;
 
