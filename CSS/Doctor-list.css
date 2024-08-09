@@ -1,0 +1,33 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "doctor1 doctor2 doctor3"
+      "doctor4 doctor5 doctor6"
+      "doctor7 doctor8 doctor9";
+  }
+  
+  .doctor1 { grid-area: doctor1; }
+  
+  .doctor2 { grid-area: doctor2; }
+  
+  .doctor3 { grid-area: doctor3; }
+  
+  .doctor4 { grid-area: doctor4; }
+  
+  .doctor5 { grid-area: doctor5; }
+  
+  .doctor6 { grid-area: doctor6; }
+  
+  .doctor7 { grid-area: doctor7; }
+  
+  .doctor8 { grid-area: doctor8; }
+  
+  .doctor9 { grid-area: doctor9; }
+
+  .image1{
+    background-image: url(../Images/doc.jpeg);
+  }
+  
