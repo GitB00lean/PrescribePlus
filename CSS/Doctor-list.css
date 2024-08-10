@@ -1,3 +1,18 @@
+:root{
+  --skyblue: #ADE8F4;
+  --lighter-skyblue: #CAF0F8;
+  --darker-skyblue: #90E0EF;
+  --light-blue: #48CAE4;
+  --blue: 00B4D8;
+  --blue-shade1: #0096C7;
+  --deep-blue: #0077B6;
+  --dark-blue: #023E8A;
+  --black: #010114;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
 .container {  display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -31,3 +46,100 @@
     background-image: url(../Images/doc.jpeg);
   }
   
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+.mid-nav>a{
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
+.sort{
+  display: flex;
+}
+.btn1,.btn2,.btn3,.btn4,.btn5,.btn6{
+  height: 20px;
+  width: 80px;
+  margin: 20px;
+  background-color: white;
+  border: 2px var(--skyblue) solid;
+  transition: 0.5s;
+}
+.btn1:hover,.btn2:hover,.btn3:hover,.btn4:hover,.btn5:hover,.btn6:hover{
+  background-color: var(--skyblue);
+  color: var(--black);
+}
+.image1{
+  background-image: url(../Images/doc1.jpeg);
+}
+.image2{
+  background-image: url(../Images/doc2.jpeg);
+}
+.image3{
+  background-image: url(../Images/doc3.jpg);
+}
+.image4{
+  background-image: url(../Images/doc4.png);
+}
+.image5{
+  background-image: url(../Images/doc5.jpeg);
+}
+.image6{
+  background-image: url(../Images/doc6.webp);
+}
+.image7{
+  background-image: url(../Images/doc7.jpg);
+}
+.image8{
+  background-image: url(../Images/doc8.jpeg);
+}
+.image9{
+  background-image: url(../Images/doc9.jpg);
+}
+.image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9{
+  height: 40vh;
+  width: 25vw;
+  background-size: cover;
+}
+.doctor1,.doctor2,.doctor3,.doctor4,.doctor5,.doctor6,.doctor7,.doctor8,.doctor9{
+  width: 25vw;
+  margin: 15px;
+  border: 2px black solid;
+  text-align: center;
+  padding: 5px;
+}
+h2{
+  color: var(--dark-blue);
+}
+p{
+  margin: 5px;
+}
+.speciality,.experience{
+  color: var(--dark-blue);
+  font-size: large;
+  margin: 0;
+  padding: 5px;
+  font-weight: bolder;
+}
+.book-doc{
+  background-color: var(--dark-blue);
+  color: white;
+}
+.bottom-div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.right{
+  background-image: url(../Images/8dd25d9051cbef9c3a4518b67a7abdf6.jpg);
+  height: 20vh;
+  width: 20vh;
+  background-size: cover;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--light-blue);
+}
