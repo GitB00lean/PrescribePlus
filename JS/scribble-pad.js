@@ -73,11 +73,12 @@ downloadButton.addEventListener('click', () => {
     const imgData = canvas.toDataURL('image/jpeg', 1.0);
 
     // Create a new PDF document
-    const pdf = new jsPDF();
+    window.jsPDF = window.jspdf.jsPDF;
+    const pdf = new window.jsPDF();
 
     // Add the image to the PDF
     pdf.addImage(imgData, 'JPEG', 10, 10, canvas.width / 4, canvas.height / 4);
 
     // Save the PDF file
-    pdf.save('signature.pdf');
+    pdf.save('prescription.pdf');
 });
