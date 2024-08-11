@@ -16,16 +16,21 @@
 nav{
     display: flex;
     justify-content: space-around;
+    .mid-nav{
+        a{
+        color: black;
+        text-decoration: none;
+        padding: 20px;
+    }}
 }
-.mid-nav>a{
-    color: black;
-    text-decoration: none;
-    padding: 20px;
-}
+
 footer{
     display: flex;
     justify-content: space-around;
     background-color: var(--light-blue);
+    p{
+        padding: 5px;
+    }
 }
 
 
@@ -33,10 +38,11 @@ footer{
     background-color: var(--skyblue);
     display: flex;
     justify-content: space-evenly;
+    h1{
+        color: var(--dark-blue);
+    }
 }
-.banner>h1{
-    color: var(--dark-blue);
-}
+
 .image{
     background: url(../Images/doc9.jpg);
     height: 30vh;
@@ -50,4 +56,95 @@ footer{
     height: 4.5vh;
     width: 7vw;
     border-radius: 5px;
+    padding-left: 5px;
+    i{
+        margin: 0px;
+        padding: 0px;
+    }
+}
+.information{
+
+}
+.left-section{
+    i{
+        color: var(--dark-blue);
+    }
+    .box{
+        display: flex;
+        background: rgba( 255, 255, 255, 0.25 );
+        box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+        backdrop-filter: blur( 4.5px );
+        -webkit-backdrop-filter: blur( 4.5px );
+        border-radius: 10px;
+        width: 20vw;
+        justify-content: space-evenly;
+    }
+    .time1,.time2,.time3{
+        display: flex;
+    }
+}
+.i{
+    display: flex;
+}
+i{
+    margin: 2px;
+    padding-right: 5px;
+}
+.appointment-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--skyblue);
+}
+
+.bottom-div{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    .left{
+        h1{
+            color: var(--dark-blue);
+        }
+        p{
+            color: var(--blue-shade1);
+        }
+    }
+    .right{
+        background-image: url(../Images/8dd25d9051cbef9c3a4518b67a7abdf6.jpg);
+        height: 20vh;
+        width: 20vh;
+        background-size: cover;
+    }
+}
+
+form{
+    margin: 20px;
+    h2{
+        color: var(--deep-blue);
+    }
+    h1{
+        color: var(--dark-blue);
+    }
+    input{
+        background: var(--skyblue);
+    }
+    #submit{
+        background-color: var(--dark-blue);
+        color: white;
+        margin: 5px;
+        padding: 5px;
+        font-size: large;
+        border-radius: 15px;
+        border: 0px;
+    }
+    p{
+        margin: 5px;
+    }
+}
+.image-box{
+    background: url(../Images/doctor.jpg);
+    height: 55vh;
+    width: 25vw;
+    background-size: cover;
+    margin-top: 3%;
 }

@@ -131,12 +131,20 @@ p{
   justify-content: space-around;
   margin-top: 20px;
   margin-bottom: 20px;
-}
-.right{
-  background-image: url(../Images/8dd25d9051cbef9c3a4518b67a7abdf6.jpg);
-  height: 20vh;
-  width: 20vh;
-  background-size: cover;
+  .left{
+      h1{
+          color: var(--dark-blue);
+      }
+      p{
+          color: var(--blue-shade1);
+      }
+  }
+  .right{
+      background-image: url(../Images/8dd25d9051cbef9c3a4518b67a7abdf6.jpg);
+      height: 20vh;
+      width: 20vh;
+      background-size: cover;
+  }
 }
 footer{
   display: flex;
