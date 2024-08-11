@@ -23,33 +23,21 @@ nav{
         padding: 20px;
     }}
 }
-form{
-    a{
-        color: var(--dark-blue);
-        text-decoration: none;
+.container{
+    .banner{
+        background-color: var(--skyblue);
+        display: flex;
+        justify-content: space-evenly;
+        h1{
+            color: var(--dark-blue);
+        }
     }
-    .share{
-        color: white;
-        background-color: var(--blue-shade1);
-        border: 0px;
-        font-size: large;
-        width: 60px;
-        height: 20px;
+    .image{
+        background: url(../Images/Patient.jpg);
+        height: 28vh;
+        width: 10vw;
+        background-size: contain;
     }
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.4;
-    padding: 1rem;
-}
-.signature-pad-form {
-    max-width: 300px;
-    margin: 0 auto;
-}
-.signature-pad {
-    cursor: 1 26, pointer;
-    border: 2px solid black;
-    border-radius: 4px;
 }
 .bottom-div{
     display: flex;
@@ -71,24 +59,11 @@ body{
         background-size: cover;
     }
 }
-.clear-button {
-    color: var(--primary-color);
-}
-.submit-button {
-    width: 100%;
-    background-color: var(--primary-color);
-    border: none;
-    padding: 0.5rem 1rem;
-    color: #fff;
-    cursor: pointer;
-    margin-top: 2rem;
-}
 footer{
     display: flex;
     justify-content: space-around;
     background-color: var(--light-blue);
-  }
-@media (pointer: coarse) {
-body{
-      overflow: hidden; /* Needed to prevent the vertical scroll on touch devices */
-}}
+    p{
+        padding: 5px;
+    }
+}
