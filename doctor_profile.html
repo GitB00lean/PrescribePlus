@@ -40,20 +40,20 @@
         </div>
     </div>
     <div class="information">
-        <i class="fa-solid fa-school"></i><p>Degrees</p>
+        <div class="i"><i class="fa-solid fa-school"></i><p>Degrees</p></div>
         <ul>
             <li>Completed MBBS with honours from Calcutta Medical COllege in 1992</li>
             <li>WHO Fellowship in Sydney, Australia. She received a brief training from the UK College of Hypnotherapy, London as well. </li>
             <li>Dr. Chaudhuri acquired the Diplomate of National Board (DNB) title in Psychiatry from the National Board of Examination, New Delhi in 1998.</li>
         </ul>
-            <i class="fa-solid fa-briefcase"></i><p>Experiences</p>
+            <div class="i"><i class="fa-solid fa-briefcase"></i><p>Experiences</p></div>
         <ul>
             <li>Education Councellingof Children and Adolescents (Griffith University, Queensland Australia).</li>
             <li>Expertise in the treatment of mood disorder, anxiety disorders and psychotic disorders. </li>
             <li>Speaker at national and international psychiatry conferences and events in India and overseas.</li>
             <li>Experience managing complex cases that involves both mental health and medical issues.</li>
         </ul>
-        <i class="fa-solid fa-award"></i><p>Awards/Achievements</p>
+            <div class="i"><i class="fa-solid fa-award"></i><p>Awards/Achievements</p></div>
         <ul>
             <li>Fellow of the American Psychiatric Association (FAPA).</li>
             <li>Recognized for research contributions with grants from the National Institute of Mental Health (NIMH) and the American Foundation for Suicide Prevention.</li>
@@ -61,12 +61,12 @@
     </div>
     <div class="left-section">
         <div class="contact-info">
-            <i class="fa-regular fa-calendar"></i><h2>contact-Info</h2>
-            <i class="fa-solid fa-phone-volume"></i><p>123-456-7890</p>
-            <i class="fa-solid fa-inbox"></i><p>sarachaudhuri@prohealth.com</p>
+            <div class="i"><i class="fa-regular fa-calendar" id="speacial"></i><h2>contact-Info</h2></div>
+            <div class="i"><i class="fa-solid fa-phone-volume"></i><p>123-456-7890</p></div>
+            <div class="i"><i class="fa-solid fa-inbox"></i><p>sarachaudhuri@prohealth.com</p></div>
         </div>
         <div class="Appoinment">
-            <i class="fa-regular fa-calendar"></i><h2>Appointment Schedules</h2>
+            <div class="i"><i class="fa-regular fa-calendar"></i><h2>Appointment Schedules</h2></div>
             <div class="box">
                 <div class="day">
                     <p>Monday</p>
@@ -74,9 +74,9 @@
                     <p>Friday</p>
                 </div>
                 <div class="time">
-                    <i class="fa-regular fa-clock">09:00-12:00</i>
-                    <i class="fa-regular fa-clock">12:00-15:00</i>
-                    <i class="fa-regular fa-clock">09:00-12:00</i>
+                    <div class="time1"><i class="fa-regular fa-clock"></i> <p> 09:00-12:00</p></div>
+                    <div class="time2"><i class="fa-regular fa-clock"></i> <p> 12:00-15:00</p></div>
+                    <div class="time3"><i class="fa-regular fa-clock"></i> <p> 09:00-12:00</p></div>
                 </div>
             </div>
         </div>
@@ -88,11 +88,11 @@
                 <h2>Book An</h2>
                 <h1>APPOINMENT</h1>
                 <p>Name</p>
-                <textarea name="Name" id="" placeholder="David John"></textarea>
+                <input type="text" placeholder="John Due">
                 <p>Phone</p>
-                <textarea name="Phone" id="" placeholder="123-456-7890"></textarea>
+                <input type="text" placeholder="123-456-7890">
                 <p>Medical Record Number</p>
-                <textarea name="MRN" id="" placeholder="123456798"></textarea>
+                <input type="text" placeholder="65432169541">
                 <p>Preffered Date</p>
                 <input type="date">
                 <p>Time</p>
@@ -104,6 +104,7 @@
                 <label for="New Patient Visit">New Patient Visit</label>
                 <input type="radio" name="" id="" value="Specific Concern">
                 <label for="Specific Concern">Specific Concern</label>
+                <br>
                 <button id="submit">Submit &rarr;</button>
             </form>
         </div>
