@@ -3,11 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="CSS/scribble-pad.css">
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.1/fabric.min.js" integrity="sha512-CeIsOAsgJnmevfCi2C7Zsyy6bQKi43utIjdA87Q0ZY84oDqnI0uwfM9+bKiIkI75lUeI00WG/+uJzOmuHlesMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>PrescribePlus- Patient Profile</title>
+    <link rel="stylesheet" href="CSS/Patient-Profile.css">
 </head>
 <body>
     <nav>
@@ -26,12 +23,22 @@
             
         </div>
       </nav>
-    <form class="signature-pad-form" action="#" method="POST">
-        <h1>Prescription</h1>
-        <canvas height="1000" width="500" class="signature-pad"></canvas>
-        <p><a href="#" class="clear-button">Clear</a></p>
-        <button class="share">Share</button>
-    </form>
+      <div class="container">
+        <div class="banner">
+            <div class="image"></div>
+            <div class="info">
+                <h1>Dr. Sara Chaudhari, MD, PHD, FAPA, MBBS M.D. ,DNB - Psychiatary</h1>
+                <p>Board Certified Psychiatrist</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas quo officiis blanditiis maiores! Numquam repellat quidem beatae perspiciatis hic. Eius voluptatum ipsa temporibus! Temporibus, ab?</p>
+            </div>
+        </div>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+        </div>
+    </div>
+
     <div class="bottom-div">
         <div class="left">
             <h1>Don’t Let Your Health <br>Take a Backseat!</h1>
@@ -63,6 +70,4 @@
         </div>
     </footer>
 </body>
-<script src="JS/scribble-pad.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </html>
