@@ -1,0 +1,53 @@
+:root{
+    --skyblue: #ADE8F4;
+    --lighter-skyblue: #CAF0F8;
+    --darker-skyblue: #90E0EF;
+    --light-blue: #48CAE4;
+    --blue: 00B4D8;
+    --blue-shade1: #0096C7;
+    --deep-blue: #0077B6;
+    --dark-blue: #023E8A;
+    --black: #010114;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+.mid-nav>a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--light-blue);
+}
+
+
+.banner{
+    background-color: var(--skyblue);
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner>h1{
+    color: var(--dark-blue);
+}
+.image{
+    background: url(../Images/doc9.jpg);
+    height: 30vh;
+    width: 15vw;
+    background-size: contain;
+}
+.icons{
+    background-color: var(--blue-shade1);
+    color: white;
+    font-size: x-large;
+    height: 4.5vh;
+    width: 7vw;
+    border-radius: 5px;
+}
