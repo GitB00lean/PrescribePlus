@@ -27,16 +27,100 @@ nav{
     .banner{
         background-color: var(--skyblue);
         display: flex;
+        height: 24vh;
         justify-content: space-evenly;
         h1{
             color: var(--dark-blue);
+            margin-top: 25px;
         }
     }
     .image{
-        background: url(../Images/Patient.jpg);
-        height: 28vh;
+        background: url(../Images/Man-Stock-Photos.jpg);
+        background-repeat: no-repeat;
+        scale: 1.5;
+        margin-top: 40px;
+        height: 15vh;
         width: 10vw;
         background-size: contain;
+    }
+}
+.container-box{
+    margin: 5vh;
+    margin-left: 22vw;
+    height: 60vh;
+    width: 60vw;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    .upper{
+        display: flex;
+        justify-content: space-around;
+        .height{
+            height: 75px;
+            width: 75px;
+            background: rgba( 215, 26, 26, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3vh;
+        }
+        .weight{
+            height: 75px;
+            width: 75px;
+            background: rgba( 128, 26, 215, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3vh;
+        }
+        .age{
+            height: 75px;
+            width: 75px;
+            background: rgba( 24, 102, 225, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 3vh;
+        }
+    }
+    .lower{
+        h2{
+            color: var(--dark-blue);
+            text-align: center;
+            margin: 2vh;
+        }
+        .box{
+            margin-top: 5vh;
+            height: 5vh;
+            width: 30vw;
+            margin-left: 15vw;
+            display: flex;
+            justify-content: space-around;
+            background: rgba( 255, 255, 255, 0.25 );
+            box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+            backdrop-filter: blur( 4px );
+            -webkit-backdrop-filter: blur( 4px );
+            border-radius: 10px;
+            border: 1px solid rgba( 255, 255, 255, 0.18 );
+        }
     }
 }
 .bottom-div{
