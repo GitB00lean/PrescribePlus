@@ -1,4 +1,4 @@
-# 🌟 Prescription Management System 🌟
+st 🌟 Prescription Management System 🌟
 
 Welcome to the **Prescription Management System**, a seamless, secure, and smart way to manage patient prescriptions, track medication adherence, and ensure optimal patient outcomes. This platform is designed to bring healthcare providers and patients closer, improving the quality of care through cutting-edge technology.
 
@@ -32,3 +32,5 @@ To get started with the **Prescription Management System**, clone the repository
 ```bash
 git clone https://github.com/GitB00lean/PrescribePlus.git
 
+Connect with me : 
+https://www.linkedin.com/in/anwesha-chakraborty-044852284
