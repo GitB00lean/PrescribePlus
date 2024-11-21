@@ -36,3 +36,4 @@ To get started with the Prescription Management System, clone the repository and
 git clone https://github.com/GitB00lean/PrescribePlus.git
 
 ## contributed by Ishita
+#Akash
