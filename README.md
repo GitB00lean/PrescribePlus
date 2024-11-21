@@ -33,4 +33,6 @@ Available wherever you are! Whether on the web, iOS, or Android, our platform en
 
 To get started with the Prescription Management System, clone the repository and install the necessary dependencies.
 
-git clone https://github.com/GitB00lean/PrescribePlus.git## contributed by Ishita
+git clone https://github.com/GitB00lean/PrescribePlus.git
+
+## contributed by Ishita
