@@ -1,39 +1,46 @@
 
+# PrescribePlus
+
+Welcome to a PrescribePlus, a seamless, secure, and smart way to manage patient prescriptions, track medication adherence, and ensure optimal patient outcomes. This platform is designed to bring healthcare providers and patients closer, improving the quality of care through cutting-edge technology.
+
+## Tech Stack
+
+**Client:** HTML, CSS, JS, Agora.io.
+
+**Server:** Firebase
 
 
+## Features
 
-🌟 Prescription Management System 🌟
+- Light/dark mode toggle
+- Cross platform
+- Ability to chat and video call.
 
-Welcome to the Prescription Management System, a seamless, secure, and smart way to manage patient prescriptions, track medication adherence, and ensure optimal patient outcomes. This platform is designed to bring healthcare providers and patients closer, improving the quality of care through cutting-edge technology.
+For Doctors :-
+- Digital Prescription
+- AI Creation of Medical History
+- Custom creation of profile to better suit your needs.
 
-## ✨ Features at a Glance
+For Patients :-
+- Calender to track your medicines
+- Booking of doctors.
 
-### 📝 Prescription Management
-Effortlessly create, update, and track patient prescriptions with just a few clicks. Stay organized and ensure every patient gets the right medication at the right time.
 
-### ⏰ Medication Adherence
-Never miss a dose! Set reminders and notifications to help patients take their medications on time, every time.
+## Installation
 
-### ⚠️ Drug Interaction Alerts
-Be informed, be safe. Receive real-time alerts about potential drug interactions, ensuring patient safety and avoiding harmful side effects.
+https://debankur04.github.io/PrescribePlus/
 
-### 🗂️ Patient History
-Access a comprehensive history of patient medications and treatment plans. Everything you need to know, all in one place.
+Our official link to access the website. 
 
-### 🔐 Secure Communication
-Facilitate secure and private messaging between healthcare providers and patients. Communication that you can trust.
+Sign-In using your email and password. Then you can access all the different amentities of our product.
 
-### 📊 Analytics and Reporting
-Generate detailed reports and analytics to monitor prescription trends and patient outcomes. Insightful data at your fingertips.
+## License
 
-### 📱 Multi-Platform Support
-Available wherever you are! Whether on the web, iOS, or Android, our platform ensures a seamless experience across all devices.
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## 🚀 Getting Started
 
-To get started with the Prescription Management System, clone the repository and install the necessary dependencies.
+## Authors
 
-git clone https://github.com/GitB00lean/PrescribePlus.git
-
-## contributed by Ishita
-#Akash
+- [Debankur Dutta](https://github.com/Debankur04)
+- [Shinjan Kundu](https://github.com/Galahad19)
+- [Anwesha Chakraborty](https://github.com/CSE-Anwesha)
