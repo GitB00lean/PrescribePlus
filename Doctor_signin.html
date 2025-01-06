@@ -13,18 +13,18 @@
     <form action="">
       <h1 style= "color: #0077B6">Login</h1>
       <div class="input-box">
-        <input type="text" placeholder="Username" required>
+        <input type="text" placeholder="Username" required class="login_username">
         <i class='bx bxs-user'></i>
       </div>
       <div class="input-box">
-        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Password" required class="login_password">
         <i class='bx bxs-lock-alt' ></i>
       </div>
       <div class="remember-forgot">
         <label><input type="checkbox">Remember Me</label>
         <a href="#">Forgot Password</a>
       </div>
-      <button type="submit" class="btn">Login</button>
+      <button type="submit" class="loginbtn">Login</button>
       <div class="register-link">
         <p style="color: beige;">Dont have an account? <a href="#" class="signin_btn">Sign Up</a></p>
       </div>
@@ -35,15 +35,15 @@
     <form action="">
       <h1 style= "color: #0077B6">Sign Up</h1>
       <div class="input-box">
-        <input type="text" placeholder="Username" required>
+        <input type="text" placeholder="Username" required class="signin_username">
         <i class='bx bxs-user'></i>
       </div>
       <div class="input-box">
-        <input type="email" placeholder="Email" required>
+        <input type="email" placeholder="Email" required class="signin_email">
         <i class='bx bxs-majesticons:mail-line'></i>
       </div>
       <div class="input-box">
-        <input type="password" placeholder="Password" required>
+        <input type="password" placeholder="Password" required class="signin_password">
         <i class='bx bxs-lock-alt' ></i>
       </div>
       <div class="remember-forgot">
@@ -57,5 +57,6 @@
     </form>
   </div>
   <script src="JS/Doctor_sginin.js"></script>
+  <script type="module" src="JS/Auth.js"></script>
 </body>
 </html>

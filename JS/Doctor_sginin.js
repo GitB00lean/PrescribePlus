@@ -1,7 +1,7 @@
-var a = document.getElementById("loginBtn");
-var b = document.getElementById("registerBtn");
-var x = document.getElementById("Login");
-var y = document.getElementById("register");
+const a = document.getElementById("loginBtn");
+const b = document.getElementById("registerBtn");
+const x = document.getElementById("Login");
+const y = document.getElementById("register");
 
 let signin_btn = document.querySelector(".signin_btn");
 let login_btn =  document.querySelector(".login_btn");
@@ -14,3 +14,4 @@ login_btn.addEventListener("click",()=>{
     y.style.display= "none";
     x.style.display= "block";
 })
+
